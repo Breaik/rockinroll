@@ -1,0 +1,153 @@
+body{
+    background-image: url(fotos/body.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
+
+}
+/*________________________________________________________________CORPO*/
+a{
+    padding: 20px 23px;
+    color: white;
+    text-decoration: solid;
+}
+a:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.274);
+    border-style: inset;
+    border-color: red;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'font1';
+    color: white;
+    text-align: center;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+    padding: 459px 40px;
+    margin: -108px -10px ;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+}
+@font-face {
+    font-family: 'font1';
+    src: url(fontes/dream_glory/DREAM\ GLORY.ttf);
+}
+header h1{
+    font-family: 'font1';
+    background-color: black;
+    border-radius: 50%;
+    font-size: 1cm;
+    display: inline;
+    padding: 0px 10px;
+    margin: 10px 10px;
+}
+header p{
+    display: inline;
+    font-family: 'font1';
+    font-size: .5cm;
+    padding: 10px 10px ;
+}
+div.principal{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.274);
+    border-radius: 10px;
+    display: inline-block;
+    margin: auto;
+}
+div h2{
+    margin: auto;
+}
+/*________________________________________________________________Cabeçalho*/
+nav{
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    padding: 10px 0px;
+    margin: 12px -10px;
+}
+div a{
+    display: none;
+}
+div:hover a{
+    display: inline-block;
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+}
+/*________________________________________________________________LINKS PARA OUTRAS PAGS*/
+main{
+    background-color: white;
+    box-shadow:inset 0px -20px 20px 7px rgba(0, 0, 0, 0.137);
+    color: rgb(0, 0, 0);
+    min-width: 350px;
+    max-width: 1000px;
+    margin: -800px 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+main h1 {
+    color: rgb(255, 255, 255);
+    background-image: url(fotos/usa.jpg);
+    font-family: 'font1';
+    text-align: center;
+    font-size: .7cm;
+    margin: 20px -8px;  
+    padding: 20px 0px; 
+}
+main #nacional{
+    color: white;
+    background-image: url(fotos/brasilfundo.jpg);
+    font-family: 'font1';
+    text-align: center;
+    font-size: .7cm;
+    margin: 20px -8px;  
+    padding: 20px 0px; 
+
+}
+main h2{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.356), rgba(168, 2, 2, 0.247), white);
+    margin: 0px -8px;
+}
+main .br{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(21, 255, 0, 0.356), rgba(238, 255, 6, 0.411), rgb(16, 30, 150));
+    margin: 0px -8px;
+}
+main p {
+    text-align: justify; 
+    text-indent: 30px; /*Espaço no ínicio do parágrafo*/
+    margin: 15px 0px;
+    line-height: 1.5em;/*Altura entre linhas*/
+    font-size: 1.2em; /*Tamanho da letra*/
+}
+main ul{
+    columns: 2;
+    margin: 15px 0px;
+}
+img{
+    width: 800px; height: 300px;
+}
+main img{
+    width: 100%;
+}
+/*________________________________________________________________PRINCIPAL*/
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: white;
+    padding: 459px 40px;
+    margin: -108px -10px ;
+    background-color: black;
+    height: 100px;
+    width: 200px;
+}
