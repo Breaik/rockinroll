@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'font1' ;
+    src: url(fontes/dream_glory/DREAM\ GLORY.ttf);
+}
+@font-face {
+    font-family: 'font2';
+    src: url(fontes/sunday_best/Sunday\ Best.ttf);
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.356);
+    margin: 0px;
+}
+div{
+    background-color: rgb(39, 39, 39);
+    background-image: url(fotos/body.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top, black, rgb(1, 1, 53));
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+    padding-bottom: 100px;
+    margin: -112px 0px ;  
+}
+header h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3.5vw;
+}
+header h2{
+    text-align: center;
+    font-size: 2.5vw;
+    padding-bottom: 20px;
+}
+section{
+    background-color: black;
+    max-width: 70vw;
+    margin: auto;
+    padding: 10px;
+    font-variant: small-caps;
+    line-height: 2em;
+    color: white;
+    box-shadow:0px 18px 20px 18px rgba(0, 0, 0, 0.384);
+}
+section h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    background-attachment: fixed;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3.6vw;
+    text-align: center;
+    padding: 50px 0px;
+    margin: -10px -10px;
+}
+section h2{
+    font-size: 2.5vw;
+}
+section p{
+    text-indent: 20px; 
+    font-size: 2.3vw;
+    color: rgb(0, 0, 0);
+}
+section ul{
+    color: rgb(0, 0, 0);
+    font-size: 2.3vw;
+    columns: 2;
+}
+#nacional{
+    background-position: center center;
+}
+section#normal{
+    background-color: rgba(173, 221, 230, 0.897);
+    color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+section#inormal{
+    background-color:  rgba(173, 221, 230, 0.897);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vw;
+}
+section a:hover{
+    color: rgb(255, 1, 1);
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pág. de Rock</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>IBS ROCK</h1>
+        <h2>Ouça aqui o melhor do Rock! <br>
+            Relembre grandes sucessos com apenas 1 click!</h2>
+    </header>
+    <div>
+    <section  id="normal">
+        <h1>Curiosidades sobre o Rock Internacional</h1>
+        <h2>Quando surgiu o Rock? E em que estado surgiu o rock?</h2>
+        <p>"O surgimento do rock aconteceu nos EUA como consequência da mistura de outros estilos musicais, com enfoque no jazz, folk, country e rhythm and blues. As primeiras experimentações ocorreram ainda na década de 40, sobretudo em seus últimos anos, mas foi nos anos 50 que a vertente ganhou contornos mais nítidos."</p>
+    </section>
+    <section id="inormal">
+        <h2>E quais as principais bandas de rock anos 50?</h2> 
+        <p>Segundo os fãs são elas:</p>  
+        <ul>
+    <a href="https://www.youtube.com/watch?v=r3eCp5J2IeE" target="_blank">
+        <li>Elvis Presley</li>
+    </a>
+    <a href="https://www.youtube.com/watch?v=kM6MC1Q7Gt0" target="_blank">
+        <li>Chuck Berry</li>
+    </a>
+    <a href="https://www.youtube.com/watch?v=T7Ujea6LzkA" target="_blank">
+        <li>Jerry Lee Lewis</li>
+    </a>
+    <a href="https://www.youtube.com/watch?v=imPu6gYRfms" target="_blank">
+        <li>Little Richard</li>
+    </a>
+    <a href="https://www.youtube.com/watch?v=b0GWBYgx1V4" target="_blank">
+        <li>Buddy Holly</li>
+    </a>
+    <a href="https://www.youtube.com/watch?v=tDXER8KoopA" target="_blank">
+        <li>Frank Sinatra</li>
+    </a>
+    <li>E mais.. </li>
+        </ul> 
+        <h2>E quais as principais bandas de rock anos 60?</h2> 
+        <p>Segundo os fãs são elas:</p>
+        <ul>
+            <a href="https://www.youtube.com/watch?v=e6QhH3q-UJE" target="_blank">
+                <li>The Beatles</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=YzjZEci-EiU" target="_blank">
+                <li>Rolling Stones</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=B7e2kM8gmfk" target="_blank">
+                <li>The Who</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=nqsxQnJSeB8" target="_blank">
+                <li>Jimmi Hendrix</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=OOq_QueshkI" target="_blank">
+                <li>Beach Boys</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=a9jPIf_V-70" target="_blank">
+                <li>The Stooges</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=RPuXThQAm2s" target="_blank">
+                <li>The Kinks</li>
+            </a>
+                <li>E mais..</li>
+        </ul>
+        <h2>E quais as principais bandas de rock anos 70?</h2> 
+        <p>Segundo os fãs são elas:</p>
+        <ul>
+            <a href="https://www.youtube.com/watch?v=fY79rZTHeoU" target="_blank">
+                <li>David Bowie</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=6cfuBk93N2E" target="_blank">
+                <li>The Clash</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=bFTAgE7ZjC8" target="_blank">
+                <li>Ramones</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=UuQYM9PNnII" target="_blank">
+                <li>Neil Young</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=AOK0FG0ejqA" target="_blank">
+                <li>Led Zeppelin</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=HLNQE5JWmu0" target="_blank">
+                <li>Black Sabbath</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=2YopyMU2SYA" target="_blank">
+                <li>Pink Floyd</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=HnC4-WtWivI" target="_blank">
+                <li>ACDC</li>
+            </a>
+        </ul>
+        <h2>E quais as principais bandas de rock anos 80?</h2> 
+        <p>Segundo os fãs são elas:</p>
+        <ul>
+            <a href="https://www.youtube.com/watch?v=Ca-xJT41rec">
+                <li>Guns N' Roses</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=k04_5pBy7qY">
+                <li>Queen</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=yOKxnGdeUGQ">
+                <li>U2</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=Nhi8MxDCkls">
+                <li>Bon Jovi</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=5c1j8flBtvk">
+                <li>Pixies</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=iKVrx5Vx1rs&t=6351s">
+                <li>Metallica</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=82uTuWxTJS4">
+                <li>Iron Maiden</li>
+            </a>
+        </ul>
+    </section>
+    <section id="normal">
+        <h1 id="nacional">Curiosidades Sobre o Rock Nacional</h1>
+        <h2>Quando surgiu o Rock no Brasil?</h2>
+        <p>"O marco inicial do rock brasileiro é datado de 24 de outubro de 1955, quando foi lançada, na voz de Nora Ney, a música “Ronda das Horas”, uma versão de “Rock Around the Clock”, um dos primeiros sucessos do gênero, originalmente gravado por Bill Haley."</p>
+    </section>
+    <section id="inormal">
+        <h2>E quais as principais bandas nacionais?</h2>
+        <h2>As melhores bandas brasileiras da história</h2>
+        <ul>
+            <a href="https://www.youtube.com/watch?v=w_VhNzv-cY0" target="_blank">
+                <li>Legião Urbana</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=DNTj31mbvRY"target="_blank">
+                <li>Raimundos</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=HiXdCFhVz6c"target="_blank">
+                <li>Mamonas Assasinas</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=65T40qqEW5A"target="_blank">
+                <li>Os Paralamas do Sucesso</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=fPutnZniEmQ" target="_blank" >
+                <li>Sepultura</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=h-5bvHI1dgs" target="_blank" >
+                <li>Barão Vermelho</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=drKbxZi-okg" target="_blank">
+                <li>Charlie Brown Jr</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=0yaIa09zJ3M" target="_blank" >
+                <li>RPM</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=nIxsX_1XaL0" target="_blank" >
+                <li>Titãs</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=hVrHAI3PAZA" target="_blank" >
+                <li>Engenheiros do Hawaii</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=9t7hRhIgIEk" target="_blank" >
+                <li>Skank</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=E1zVRhZbSYg" target="_blank" >
+                <li>Capital Inicial</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=MCi4cPGmkRQ" target="_blank" >
+                <li>Angra</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=DY40RAyCK0o" target="_blank" >
+                <li>Matanza</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=LS_Dd2V2Tkw" target="_blank" >
+                <li>Kid Abelha</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=HbC8Au3sK2c" target="_blank" >
+                <li>Ira!</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=utPF3MjGDM4" target="_blank">
+                <li>Ultraje a Rigor</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dV_8lhf3gSg" target="_blank">
+                <li>CPM 22</li>
+            </a>
+            <a href="https://www.youtube.com/watch?v=87KpyQSBCAk&list=PLjMBldh1x3iJS01F6aK3EQ1AjXX9pXzc3" target="_blank">
+                <li>Detonautas Roque Clube</li>
+            </a>
+        </ul>
+    </section>
+</div>
+</body>
+</html>
